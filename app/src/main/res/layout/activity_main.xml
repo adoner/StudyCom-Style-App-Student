@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationZ="1dp"
+    android:visibility="visible"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImgview"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/headerImageview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/headerImageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@mipmap/header_image" />
+
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/headerImageview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="-3dp"
+        android:background="@drawable/aboutus" />
+
+    <TextView
+        android:id="@+id/twMessage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/message_btn"
+        android:layout_alignBottom="@+id/message_btn"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="45dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/message_btn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/headerImageview"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toEndOf="@+id/about_btn"
+        android:background="@mipmap/message" />
+
+    <Button
+        android:id="@+id/srbnk_btn"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="110dp"
+        android:background="@mipmap/sorubank" />
+
+    <Button
+        android:id="@+id/srkts_btn"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="73dp"
+        android:background="@mipmap/sorukutusu" />
+
+    <Button
+        android:id="@+id/hsbm_btn"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/srbnk_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/hesabim" />
+
+    <Button
+        android:id="@+id/ozelders_btn"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/srkts_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:background="@mipmap/ozelders" />
+
+    <Button
+        android:id="@+id/cam_btn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/crdvw1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginEnd="145dp"
+        android:background="@mipmap/kamerayukle" />
+
+    <ImageView
+        android:id="@+id/footerImageview"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button_profil"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/buton1" />
+
+    <Button
+        android:id="@+id/button_market"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/buton2" />
+
+    <Button
+        android:id="@+id/button_referance"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/buton3" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/crdvw1"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="70dp"
+        app:cardBackgroundColor="@android:color/darker_gray">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Soru Hakkı :"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Sorulan Soru :"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Kalan Soru :"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/toplamsoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sorulansoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/kalansoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="80dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+

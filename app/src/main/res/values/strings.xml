@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sanal Tebeşir</string>
+    <string name="username">Kullanıcıadı (Eposta Adresi)</string>
+    <string name="password">Şifre</string>
+    <string name="sign_in">Giriş</string>
+    <string name="register">Kayıt</string>
+    <string name="full_name">Ad Soyad</string>
+    <string name="phone">Telefon no</string>
+    <string name="confirm_password">Şifreyi Tekrarla</string>
+    <string name="already_having_account">Zaten Hesabınız varmı?</string>
+    <string name="log_in">Giriş</string>
+    <string name="not_having_account">Hesabınız yokmu?</string>
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="logout">Çıkış</string>
+    <string name="profile">"Profil Bilgileri"</string>
+    <string name="myAccount">"Hesabım"</string>
+    <string name="istatistik">"Kullanım İstatistikleri"</string>
+    <string name="paketler">"Üyelik Paketleri"</string>
+    <string name="cuzdan">"Cüzdanım"</string>
+    <string name="paketadi">"Paket Adı:"</string>
+    <string name="kullanim">"Kullanım Sözleşmesi"</string>
+    <string name="gizlilik">"Gizlilik İlkeleri"</string>
+    <string name="sss">"Sıkça Sorulan Sorular"</string>
+    <string name="destek">"Destek"</string>
+    <string name="sorubox">"Soru Kutusu"</string>
+    <string name="soru_sor">Soru Sor</string>
+    <string name="viewquestion">Soru *-* Çözüm</string>
+    <string name="review">Geribildirim</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>

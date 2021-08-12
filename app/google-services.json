@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1072978094871",
+    "firebase_url": "https://sanal-tebesir.firebaseio.com",
+    "project_id": "sanal-tebesir",
+    "storage_bucket": "sanal-tebesir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072978094871:android:64e06efa56e3e68faca552",
+        "android_client_info": {
+          "package_name": "com.sanaltebesir.stb_student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072978094871-4egs68to71am4male5p7sr2lu9aqtand.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3KwG05ZdLnmayAlQif2tDCI8goXI_V3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072978094871-4egs68to71am4male5p7sr2lu9aqtand.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

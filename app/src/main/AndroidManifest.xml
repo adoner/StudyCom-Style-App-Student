@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sanaltebesir.stb_student">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".questionPhotoUpload" />
+        <activity android:name=".packageHistory" />
+        <activity android:name=".solutionView" />
+        <activity android:name=".soruBankView" />
+        <activity android:name=".soruBankItem" />
+        <activity android:name=".soruBank" />
+        <activity android:name=".aboutUs" />
+        <activity android:name=".supportPage" />
+        <activity android:name=".howToWork" />
+        <activity android:name=".viewMessage" />
+        <activity android:name=".myMessage" />
+        <activity
+            android:name=".reviewQuestion"
+            android:label="@string/review"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".viewSolvedQuestions"
+            android:label="@string/viewquestion"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".uploadServerData"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".qFileUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".destekILetisim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".referance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".paymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".questionBox"
+            android:label="@string/sorubox"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".qCamUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".faqPage"
+            android:label="@string/sss"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".privacyPage"
+            android:label="@string/gizlilik"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".termsConditions"
+            android:label="@string/kullanim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myWallet"
+            android:label="@string/cuzdan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".packageList"
+            android:label="@string/paketler" />
+        <activity
+            android:name=".usageStatistics"
+            android:label="@string/istatistik"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myProfile"
+            android:label="@string/profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myAccount"
+            android:label="@string/myAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.sanaltebesir.stb_student"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
